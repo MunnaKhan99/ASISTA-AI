@@ -1,0 +1,157 @@
+/* Footer Styles */
+.asistaai-footer {
+  background: hsl(262, 45%, 15%);
+  color: hsl(0, 0%, 95%);
+  padding: 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-info {
+  padding-right: 20px;
+}
+
+.company-name {
+  width: 150px;
+  margin-bottom: 16px;
+}
+
+.company-description {
+  color: hsl(0, 0%, 80%);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.social-section h4 {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border: 1px solid hsl(0, 0%, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 80%);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 70%);
+}
+
+.footer-heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: hsl(0, 0%, 80%);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item h4 {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.contact-item p {
+  color: hsl(0, 0%, 80%);
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid hsl(0, 0%, 30%);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer-legal span,
+.footer-copyright span {
+  color: hsl(0, 0%, 80%);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer-container {
+    padding: 40px 20px 20px;
+  }
+}
