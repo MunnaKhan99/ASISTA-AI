@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.your-project{
+    background-color: #111;
+}
+.your-project-top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.your-project-top-section h1{
+    max-width: 600px;
+    text-align: start;
+}
+.your-project-top-section p{
+    max-width: 300px;
+ color: white;
+
+}
+.card {
+    background: #2a2a3c;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #f0f0f5;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 0.95rem;
+    color: #c0c0d0;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.card-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.95rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.card-link::after {
+    content: '→';
+    margin-left: 6px;
+    transition: margin 0.2s;
+}
+
+.card-link:hover::after {
+    margin-left: 10px;
+}
+
+.card-image-wrapper {
+    padding: 16px;
+    /* padding on all 4 sides */
+    /* background: #222234;       optional inner background */
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    /* inner radius if desired */
+}
