@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  background:#0b0b0f;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fff;
+}
+
+.how-section{
+  padding:4rem 0;
+  display:flex;
+  justify-content:center;
+}
+
+.how-container{
+  width:100%;
+  text-align:center;
+  position:relative;
+}
+
+.how-title{
+  font-size:2.5rem;
+  font-weight:600;
+  margin-bottom:2rem;
+}
+
+.how-video{
+  position:relative;
+  width:90%;               /* use 90% of screen width on large screens */
+  max-width:1200px;        /* wider than before for desktops */
+  aspect-ratio:16/9;       /* keeps perfect video ratio */
+  margin:0 auto;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Make the YouTube iframe fill the container */
+.how-video iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+/* Thumbnail overlay with play button */
+.video-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#000;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  z-index:5;
+}
+
+.video-overlay img{
+  position:absolute;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.play-btn{
+  position:relative;
+  z-index:6;
+  background:rgba(255,255,255,0.7);
+  border:none;
+  border-radius:50%;
+  width:70px;
+  height:70px;
+  font-size:2rem;
+  cursor:pointer;
+  transition:background 0.3s;
+}
+.play-btn:hover{
+  background:rgba(255,255,255,0.9);
+}
+
+/* Try button in top-right corner */
+.try-btn{
+  position:absolute;
+  top:0;
+  right:0;
+  text-decoration:none;
+  color:#fff;
+  font-weight:600;
+  font-size:1rem;
+  margin-top:0.5rem;
+  margin-right:0.5rem;
+  transition:color 0.3s;
+}
+.try-btn:hover{
+  color:#ff4d4d;
+}
+
+/* ===== Responsive Tweaks ===== */
+@media (max-width:1024px){
+  .how-title{ font-size:2rem; }
+  .play-btn{ width:60px; height:60px; font-size:1.8rem; }
+  .try-btn{
+    display: none;
+  }
+}
+
+@media (max-width:768px){
+  .how-video{ width:95%; }       /* slightly narrower margin on tablets/phones */
+  .how-title{ font-size:1.8rem; }
+  .try-btn{
+    display: none;
+  }
+}
+
+@media (max-width:480px){
+  .play-btn{ width:50px; height:50px; font-size:1.5rem; }
+  .try-btn{
+    display: none;
+  }
+  .how-title{ font-size:1.6rem; }
+}
