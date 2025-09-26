@@ -15,8 +15,8 @@
 }
 
 h1 {
-  text-align: center;
-  font-size: 2.5rem;
+  /* text-align: center; */
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.3;
   max-width: 900px;
@@ -152,4 +152,18 @@ h1 {
   .left-block, .right-block {
     max-width: 100%;
   }
+  .layout-container{
+     position: relative;
+  background-color: #111; 
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  }
+  .badge-profit {
+  right: -10px;
+          
+}
 }
