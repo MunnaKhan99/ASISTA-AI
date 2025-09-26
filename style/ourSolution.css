@@ -112,12 +112,14 @@ h1 {
   font-weight: 400;
   opacity: 0.8;
 }
-
-
-
-.supporting-text {
-  margin-top: 20px;
+.badge {
+  /* existing styles… */
+  will-change: transform;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
+
+
+
 
 .supporting-text p {
   font-size: 0.85rem;
