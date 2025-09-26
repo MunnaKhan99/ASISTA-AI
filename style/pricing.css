@@ -1,0 +1,96 @@
+
+
+    .pricing-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .pricing-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .plans {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .plan {
+      background: linear-gradient(180deg, #2c1039, #1c0f2e);
+      padding: 30px 20px;
+      border-radius: 12px;
+      width: 280px;
+      color: #ddd;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .plan:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    }
+
+    .plan h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .price {
+      font-size: 2rem;
+      margin: 15px 0;
+      color: #fff;
+    }
+
+    .plan ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      text-align: left;
+    }
+
+    .plan ul li {
+      margin: 10px 0;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    .plan ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #9d6cff;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      background: #2d193d;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #5e3b8d;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ff6b4a;
+      border-color: #ff6b4a;
+    }
+
+    /* Special gradient for the middle card */
+    .highlight {
+      background: linear-gradient(180deg, #5d1a8c, #2c1039);
+    }
+    .highlight .btn {
+      background: #ff6b4a;
+      border-color: #ff6b4a;
+    }
+    .highlight .btn:hover {
+      background: #e65a3c;
+      border-color: #e65a3c;
+    }

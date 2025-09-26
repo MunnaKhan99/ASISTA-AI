@@ -1,0 +1,59 @@
+body{
+  background:#121319;
+  color:#fff;
+  margin:0;
+  font-family:sans-serif;
+
+}
+.why-section{
+  display:flex;
+  gap:3rem;
+  padding:0vh 5vw;
+}
+.why-left{flex:1;max-width:400px;}
+.why-left h1{font-size:2rem;margin-bottom:1rem;}
+.why-left p{color:#bbb;line-height:1.6;}
+
+.why-right{
+  flex:1;
+  position:relative;
+  height:100vh;
+}
+.scroll-wrapper{
+  position:sticky;
+  top:10vh;        /* স্ক্রল চলার সময় কার্ড ব্লক ভিউপোর্টে আটকানো */
+  height:60vh;
+}
+.stack{
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.why-card{
+  position:absolute;
+  left:0; right:0;
+  top:0;
+  background:#1a1626;
+  padding:2rem 2rem;
+  border-radius:12px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.4);
+  transition:transform 0.4s ease, z-index 0.4s ease;
+}
+
+.card1 {
+  position: sticky;
+  top: 150px;
+  z-index: 1;
+}
+
+.card2 {
+  position: sticky;
+  top: 200px;
+  z-index: 2;
+}
+
+.card3 {
+  position: sticky;
+  top: 250px;
+  z-index: 3;
+}

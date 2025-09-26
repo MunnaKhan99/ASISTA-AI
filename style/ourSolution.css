@@ -129,6 +129,7 @@ h1 {
 
 /* Right block */
 .right-block {
+    padding-top: 8rem;
   flex: 1;
   max-width: 480px;
   display: flex;
@@ -148,6 +149,11 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
+  .right-block {
+    padding-top: 1rem;
+
+}
+
 
   .left-block, .right-block {
     max-width: 100%;
