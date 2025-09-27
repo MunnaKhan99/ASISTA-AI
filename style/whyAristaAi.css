@@ -1,205 +1,207 @@
 * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        .asistai-why-section {
-            display: flex;
-            gap: 4rem;
-            padding: 10vh 5vw;
-            min-height: 100vh;
-            background: #111;
-        }
+.asistai-why-section {
+  position: relative;
+  display: flex;
+  gap: 4rem;
+  padding: 10vh 5vw;
+  min-height: 100vh;
+  background: #111;
+}
 
-        .asistai-why-left {
-            flex: 1;
-            max-width: 450px;
-            position: sticky;
-            top: 15vh;
-            height: fit-content;
-        }
 
-        .asistai-why-left h1 {
-            font-size: 2.8rem;
-            font-weight: 300;
-            line-height: 1.2;
-            margin-bottom: 2rem;
-        }
+.asistai-why-left {
+  flex: 1;
+  max-width: 450px;
+  position: sticky;
+  top: 15vh;
+  height: fit-content;
+}
 
-        .asistai-why-left span {
-            color: #ff6b6b;
-            font-weight: 500;
-        }
+.asistai-why-left h1 {
+  font-size: 2.8rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
 
-        .asistai-why-left p {
-            color: #a1a1aa;
-            line-height: 1.7;
-            font-size: 1.1rem;
-            margin-bottom: 2.5rem;
-        }
+.asistai-why-left span {
+  color: #ff6b6b;
+  font-weight: 500;
+}
 
-        .asistai-start-btn {
-            padding: 12px 24px;
-            background: #ff6b6b;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
+.asistai-why-left p {
+  color: #a1a1aa;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+}
 
-        .asistai-start-btn:hover {
-            background: #ff5252;
-            transform: translateY(-2px);
-        }
+.asistai-start-btn {
+  padding: 12px 24px;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-        .asistai-why-right {
-            flex: 1;
-            position: relative;
-            height: 300vh;
-        }
+.asistai-start-btn:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+}
 
-        .asistai-card-container {
-            width: 100%;
-            position: relative;
-            height: 100%;
-        }
+.asistai-why-right {
+  flex: 1;
+  position: relative;
+  height: 300vh;
+}
 
-        .asistai-feature-card {
-            position: sticky;
-            max-width: 450px;
-            width: 100%;
-            height: 280px;
-            margin: 0 auto;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            color: white;
-            border-radius: 16px;
-            padding: 30px;
-            box-shadow: 8px 8px 20px rgba(148, 100, 100, 0.3);
+.asistai-card-container {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
 
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+.asistai-feature-card {
+  position: sticky;
+  max-width: 450px;
+  width: 100%;
+  height: 280px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 8px 8px 20px rgba(148, 100, 100, 0.3);
 
-        .asistai-feature-card:nth-child(1) {
-            top: 100px;
-            background: rgba(31, 19, 38, 1);
-        }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-        .asistai-feature-card:nth-child(2) {
-            top: 100px; 
-            background:rgba(31, 19, 38, 1);
+.asistai-feature-card:nth-child(1) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
+}
 
-            margin-top: 20px;
-        }
+.asistai-feature-card:nth-child(2) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
 
-        .asistai-feature-card:nth-child(3) {
-            top: 100px; 
-            background: rgba(31, 19, 38, 1); 
-            margin-top: 20px;
-        }
+  margin-top: 20px;
+}
 
-        .asistai-card-number {
-            font-size: 0.9rem;
-            color: rgba(255, 255, 255, 0.8);
-            font-weight: 600;
-            margin-bottom: 1rem;
-            letter-spacing: 0.5px;
-        }
+.asistai-feature-card:nth-child(3) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
+  margin-top: 20px;
+}
 
-        .asistai-card-title {
-            font-size: 1.6rem;
-            font-weight: 500;
-            margin-bottom: 1.5rem;
-            line-height: 1.3;
-        }
+.asistai-card-number {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
 
-        .asistai-card-description {
-            color: rgba(255, 255, 255, 0.9);
-            line-height: 1.5;
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-            flex: 1;
-        }
+.asistai-card-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
 
-        .asistai-view-details {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-            font-weight: 500;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            transition: all 0.3s ease;
-        }
+.asistai-card-description {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  flex: 1;
+}
 
-        .asistai-view-details:hover {
-            color: white;
-            gap: 12px;
-        }
+.asistai-view-details {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
 
-        .asistai-view-details::after {
-            content: "→";
-            transition: transform 0.3s ease;
-        }
+.asistai-view-details:hover {
+  color: white;
+  gap: 12px;
+}
 
-        .asistai-view-details:hover::after {
-            transform: translateX(4px);
-        }
+.asistai-view-details::after {
+  content: "→";
+  transition: transform 0.3s ease;
+}
 
-        /* Mobile responsive */
-        @media (max-width: 968px) {
-            .asistai-why-section {
-                flex-direction: column;
-                gap: 3rem;
-                padding: 8vh 4vw;
-                min-height: auto;
-            }
+.asistai-view-details:hover::after {
+  transform: translateX(4px);
+}
 
-            .asistai-why-left {
-                position: static;
-                max-width: none;
-            }
+/* Mobile responsive */
+@media (max-width: 968px) {
+  .asistai-why-section {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 8vh 4vw;
+    min-height: auto;
+  }
 
-            .asistai-why-left h1 {
-                font-size: 2.2rem;
-            }
+  .asistai-why-left {
+    position: static;
+    max-width: none;
+  }
 
-            .asistai-why-right {
-                height: auto;
-            }
+  .asistai-why-left h1 {
+    font-size: 2.2rem;
+  }
 
-            .asistai-feature-card {
-                max-width: none;
-                height: auto;
-                margin-bottom: 30px;
-                position: relative;
-                top: auto !important;
-            }
-        }
+  .asistai-why-right {
+    height: auto;
+  }
 
-        @media (max-width: 640px) {
-            .asistai-why-section {
-                gap: 2rem;
-                padding: 5vh 5vw;
-            }
+  .asistai-feature-card {
+    max-width: none;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+    top: auto !important;
+  }
+}
 
-            .asistai-why-left h1 {
-                font-size: 1.8rem;
-            }
+@media (max-width: 640px) {
+  .asistai-why-section {
+    gap: 2rem;
+    padding: 5vh 5vw;
+  }
 
-            .asistai-feature-card {
-                padding: 30px 24px;
-            }
+  .asistai-why-left h1 {
+    font-size: 1.8rem;
+  }
 
-            .asistai-card-title {
-                font-size: 1.4rem;
-            }
-        }
+  .asistai-feature-card {
+    padding: 30px 24px;
+  }
 
-        .asistai-spacer {
-            height: 50vh;
-        }
+  .asistai-card-title {
+    font-size: 1.4rem;
+  }
+}
+
+.asistai-spacer {
+  height: 50vh;
+}
