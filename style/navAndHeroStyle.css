@@ -30,7 +30,7 @@
   width: 100%;
   background: 
     linear-gradient(180deg, var(--bg-overlay) 0%, rgba(6, 5, 14, 1) 100%),
-    url("../Asset/NavHero/home-bg.png") center/cover no-repeat;
+    url("../Asset/NavHero/home-bg.webp") center/cover no-repeat;
   color: white;
   position: relative;
   display: flex;
