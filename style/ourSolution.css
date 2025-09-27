@@ -192,10 +192,16 @@ h1 {
 
 }
 @media (max-width: 1024px) {
-  .left-image-top-background,
+  .left-image-top-background{
+    height: 50vh;
+    width: 50vh;
+      bottom: 100px;
+  left: 0;
+  }
   .right-image-bottom-background {
-    height: 600px;
-    width: 600px;
+    height: 50vh;
+    width: 50vh;
+    bottom: -100px;
   }
 }
 
@@ -203,8 +209,8 @@ h1 {
 @media (max-width: 600px) {
   .left-image-top-background,
   .right-image-bottom-background {
-    height: 400px;
-    width: 400px;
+    height: 40vh;
+    width: 40vh;
   }
 }
 

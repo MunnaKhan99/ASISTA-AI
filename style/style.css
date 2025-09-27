@@ -201,6 +201,42 @@
     transform: translateY(-15px); 
   }
 }
+/* Hamburger Menu Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+   .nav-links {
+    display: none;
+  }
+
+  /* ✅ Free Trial Button hide */
+  .nav-btn.desktop-btn {
+    display: none;
+  }
+}
+
 
 /* Responsive Design */
 @media (max-width: 1200px) {

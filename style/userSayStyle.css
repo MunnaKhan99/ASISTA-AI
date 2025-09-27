@@ -9,6 +9,9 @@
  .testimonials-container {
      width: 100%;
      text-align: center;
+     margin:0;
+  background:#0b0b0f;
+  color:#fff;
  }
 
  .header {
@@ -215,10 +218,7 @@
  }
 
  @media (max-width: 480px) {
-     body {
-         padding: 20px 15px;
-     }
-
+    
      .header h1 {
          font-size: 1.8rem;
      }

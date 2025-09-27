@@ -7,7 +7,7 @@
 }
 .plan-bg{
   position: absolute;
-  top: 0;
+  bottom: -200px;
   left: 0;
   height: 700px;
   width: 700px;
