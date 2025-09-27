@@ -13,7 +13,6 @@
   background: #111;
 }
 
-
 .asistai-why-left {
   flex: 1;
   max-width: 450px;
@@ -95,7 +94,6 @@
 .asistai-feature-card:nth-child(2) {
   top: 100px;
   background: rgba(31, 19, 38, 1);
-
   margin-top: 20px;
 }
 
@@ -152,7 +150,7 @@
   transform: translateX(4px);
 }
 
-/* Mobile responsive */
+/* Tablet & Mobile responsive (keep sticky animation) */
 @media (max-width: 968px) {
   .asistai-why-section {
     flex-direction: column;
@@ -169,18 +167,29 @@
   .asistai-why-left h1 {
     font-size: 2.2rem;
   }
+.asistai-feature-card {
 
-  .asistai-why-right {
-    height: auto;
-  }
+  max-width: 650px;
+  width: 100%;
+  height: 280px;
+}
+  /* ✅ keep enough height so 3rd card fully overlaps */
+  .asistai-feature-card:nth-child(1) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
+}
 
-  .asistai-feature-card {
-    max-width: none;
-    height: auto;
-    margin-bottom: 30px;
-    position: relative;
-    top: auto !important;
-  }
+.asistai-feature-card:nth-child(2) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
+  margin-top: 20px;
+}
+
+.asistai-feature-card:nth-child(3) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
+  margin-top: 20px;
+}
 }
 
 @media (max-width: 640px) {
@@ -193,15 +202,21 @@
     font-size: 1.8rem;
   }
 
-  .asistai-feature-card {
-    padding: 30px 24px;
-  }
-
-  .asistai-card-title {
-    font-size: 1.4rem;
-  }
+  /* ✅ ensure scroll space for small mobiles too */
+  .asistai-feature-card:nth-child(1) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
 }
 
-.asistai-spacer {
-  height: 50vh;
+.asistai-feature-card:nth-child(2) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
+  margin-top: 20px;
+}
+
+.asistai-feature-card:nth-child(3) {
+  top: 100px;
+  background: rgba(31, 19, 38, 1);
+  margin-top: 20px;
+}
 }
