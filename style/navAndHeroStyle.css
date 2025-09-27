@@ -18,6 +18,11 @@
   --border-light: rgba(255, 255, 255, 0.3);
   --bg-overlay: rgba(6, 5, 14, 0.6);
 }
+.bubble-left,
+.bubble-right {
+  transition: transform 0.2s ease-out; 
+}
+
 
 /* Hero Section */
 .hero {
