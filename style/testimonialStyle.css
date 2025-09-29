@@ -44,7 +44,7 @@
  .carousel-track {
      display: flex;
      gap: 30px;
-     animation: scroll-left 15s linear infinite;
+     animation: scroll-left 15s linear infinite;/* Adjust duration as needed */
      width: fit-content;
  }
 
@@ -68,7 +68,7 @@
      transition: all 0.5s ease;
      position: relative;
      overflow: visible;
-     opacity: 0.4;
+     opacity: 0.5;
      transform: scale(0.85);
      width: 400px;
      height: 240px;
@@ -99,8 +99,8 @@
 
  .testimonial-quote {
      color: rgba(255, 255, 255, 0.6);
-     font-size: 1.1rem;
-     line-height: 1.6;
+     font-size: 1rem;
+     line-height: 1;
      margin-bottom: 0;
      font-weight: 400;
      flex-grow: 1;

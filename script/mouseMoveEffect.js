@@ -10,17 +10,17 @@ function applyMouseMoveEffect(containerSelector, elementSelectors, resistance) {
 
   container.addEventListener('mousemove', e => {
     if (lastX === null) {
-      lastX = e.clientX;
-      lastY = e.clientY;
+      lastX = e.clientX;// Initial position
+      lastY = e.clientY;// Initial position
       return;
     }
     const deltaX = e.clientX - lastX;
     const deltaY = e.clientY - lastY;
-    lastX = e.clientX;
-    lastY = e.clientY;
+    lastX = e.clientX;// Update last position
+    lastY = e.clientY;// Update last position
 
     elements.forEach(element => {
-      element.style.transition = 'transform 0.1s ease-out';
+      element.style.transition = 'transform 0.2s ease-out';
       element.style.transform = `translate(${-deltaX * resistance}px, ${-deltaY * resistance}px)`;
     });
 

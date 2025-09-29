@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .asistai-why-section {
   position: relative;
   display: flex;
@@ -14,11 +13,11 @@
 }
 
 .asistai-why-left {
-  flex: 1;
+  flex: 1; /* takes available space*/
   max-width: 450px;
   position: sticky;
   top: 15vh;
-  height: fit-content;
+  height: fit-content;/* only takes height of content */
 }
 
 .asistai-why-left h1 {
@@ -60,7 +59,7 @@
 .asistai-why-right {
   flex: 1;
   position: relative;
-  height: 300vh;
+  height: 200vh;
 }
 
 .asistai-card-container {
