@@ -1,7 +1,5 @@
- Asista AI --- fully responsive Landing page
+## Asista AI — Fully Responsive Landing Page
 
+# Live Link: https://asista-ai.netlify.app/
 
-# live link: https://asista-ai.netlify.app/
-
-
-![Alt text for the image](asista-preview.pdf)
+![Asista Preview](./asista.png)
